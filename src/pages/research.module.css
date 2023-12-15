@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+.image {
+  flex-grow: 1;
+  flex-basis: 25%;
+  max-width: 200px;
+}
+.image img {
+  max-width: 200px;
+}
+.content {
+  flex-grow: 1;
+  flex-basis: 75%;
+}
+.content h3 {
+  margin: 0;
+}
+.authors {
+  margin-block-end: 0em;
+}
+.journal {
+  margin-block-start: 0em;
+  font-style: italic;
+  color: #6a6a6a;
+}
+.links span {
+  padding-right: 1em;
+}
