@@ -16,15 +16,18 @@ const ProjectsPage = () => {
       {
         data.map((project) => (
           <div className={container}>
+            {console.log(project.node.gif)}
             <div className={image}>
               { project.node.image && <GatsbyImage image={getImage(project.node.image)} alt="" /> }
+              { project.node.gif && <img src={require(`../images/projects/${project.node.gif}`).default } /> }
+
             </div>
             <div className={content}>
               <h3>{project.node.title}</h3>
               <p>{project.node.description}</p>
-              <p>
-                {project.node.links && project.node.links.map((link) => <span><a href={link.url} target="_blank">{link.name}</a></span>)}
-              </p>
+              { project.node.links && (<p>
+                { project.node.links.map((link) => <span><a href={link.url} target="_blank">{link.name}</a></span>)}
+              </p>)}
             </div>
           </div>
         ))
@@ -39,14 +42,10 @@ const dataQuery = graphql`
         node {
           title
           description
+          gif
           links {
             name
             url
-          }
-          image {
-            childImageSharp {
-              gatsbyImageData(placeholder: BLURRED, formats: AUTO)
-            }
           }
         }
       }

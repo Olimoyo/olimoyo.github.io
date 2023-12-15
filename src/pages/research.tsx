@@ -8,6 +8,7 @@ import {
   authors,
   journal,
   links,
+  note,
 } from './research.module.css'
 
 const ResearchPage = () => {
@@ -16,7 +17,7 @@ const ResearchPage = () => {
 
   return (
     <div>
-      <h2 id="research">Research</h2>
+      <h2 id="research">Select Publications</h2>
       {
         data.map((research) => (
           <div className={container}>
@@ -25,15 +26,16 @@ const ResearchPage = () => {
               { research.node.gif && <img src={require(`../images/research/${research.node.gif}`).default } /> }
             </div>
             <div className={content}>
-            <h3>{research.node.title}</h3>
-            <p className={authors}>{research.node.authors}</p>
-            <p className={journal}>{research.node.journal}, {research.node.date}</p>
-              {research.node.links && 
-                (<p className={links}> 
-                  { research.node.links.map((link) => <span><a href={link.url} target="_blank">{link.name}</a></span>)}
-                </p>
-                )}
-            {research.node.description && <p>{research.node.description}</p>}
+              <h3>{research.node.title}</h3>
+              <p className={authors} dangerouslySetInnerHTML={{__html: research.node.authors}} />
+              <p className={journal}>{research.node.journal}, {research.node.date}</p>
+                {research.node.links && 
+                  (<p className={links}> 
+                    { research.node.links.map((link) => <span><a href={link.url} target="_blank">{link.name}</a></span>)}
+                  </p>
+                  )}
+              {research.node.description && <p>{research.node.description}</p>}
+              {research.node.note && <p className={note}>{research.node.note}</p>}
             </div>
           </div>
         ))
@@ -51,6 +53,7 @@ const dataQuery = graphql`
           journal
           date
           description
+          note
           gif
           links {
             name

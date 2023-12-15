@@ -2,7 +2,7 @@
   {
     "gif":"working_backwards.gif",
     "title": "Working backwards: Learning to place by picking",
-    "authors": "O. Limoyo, A. Konar, T. Ablett, J. Kelly, F. Hogan, and G. Dudek,",
+    "authors": "<b>O. Limoyo</b>, A. Konar, T. Ablett, J. Kelly, F. Hogan, and G. Dudek,",
     "journal": "Submitted to IEEE International Conference on Robotics and Automation (ICRA'24)",
     "date": "May 2024",
     "description": "",
@@ -14,8 +14,9 @@
     ]
   },
   {
+    "image":"../images/research/system-latest-with-buffer.png",
     "title": "Push it to the Demonstrated Limit: Multimodal Visuotactile Imitation Learning with Force Matching",
-    "authors": "T. Ablett, O. Limoyo, A. Sigal, A. Jilani, J. Kelly, K. Siddiqi, F. Hogan, G. Dudek",
+    "authors": "T. Ablett, <b>O. Limoyo</b>, A. Sigal, A. Jilani, J. Kelly, K. Siddiqi, F. Hogan, G. Dudek",
     "journal": "arXiv preprint arXiv:2311.01248",
     "date": "2023, Online",
     "description": "",
@@ -27,9 +28,9 @@
     ]
   },
   {
-    "image":"../images/research/ggik.jpg",
+    "image":"../images/research/ggik.png",
     "title": "Generative Graphical Inverse Kinematics",
-    "authors": "O. Limoyo*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
+    "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
     "journal": "Submitted to IEEE Transactions on Robotics",
     "date": "June 2023",
     "links": [
@@ -40,8 +41,9 @@
     ]
   },
   {
+    "image":"../images/research/ggik_eq.jpg",
     "title": "Euclidean Equivariant Models for Generative Graphical Inverse Kinematics",
-    "authors": "O. Limoyo*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
+    "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
     "journal": "Proceedings of the Robotics: Science and Systems (RSS) Workshop on Symmetries in Robot Learning, Daegu, Republic of Korea",
     "date": "Jul. 10 2023",
     "links": [
@@ -54,8 +56,9 @@
   {
     "gif":"multimodal_latent.gif",
     "title": "Learning Sequential Latent Variable Models from Multimodal Time Series Data",
-    "authors": "O. Limoyo, T. Ablett, J. Kelly",
+    "authors": "<b>O. Limoyo</b>, T. Ablett, J. Kelly",
     "journal": "Intelligent Autonomous Systems 17, Cham, 2023, pp. 511-529",
+    "note": "Best Paper Finalist",
     "links": [
       {
         "name": "DOI",
@@ -70,7 +73,7 @@
   {
     "gif":"robust_mpc.gif",
     "title": "Heteroscedastic Uncertainty for Robust Generative Latent Dynamics",
-    "authors": "O. Limoyo, B. Chan, F. Marić, B. Wagstaff, AR. Mahmood, J. Kelly",
+    "authors": "<b>O. Limoyo</b>, B. Chan, F. Marić, B. Wagstaff, AR. Mahmood, J. Kelly",
     "journal": "IEEE Robotics and Automation Letters, vol. 5, iss. 4, pp. 6654-6661, 2020.",
     "links": [
       {
@@ -90,7 +93,7 @@
   {
     "image":"../images/research/planetary.jpg",
     "title": "The Canadian Planetary Emulation Terrain Energy-Aware Rover Navigation Dataset",
-    "authors": "O. Lamarre, O. Limoyo, F. Maric, and J. Kelly",
+    "authors": "O. Lamarre, <b>O. Limoyo</b>, F. Maric, and J. Kelly",
     "journal": "The International Journal of Robotics Research, vol. 39, iss. 6, pp. 641-650, 2020.",
     "links": [
       {
@@ -106,7 +109,7 @@
   {
     "image":"../images/research/manipulability_2.png",
     "title": "Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization",
-    "authors": "F. Maric, O. Limoyo, L. Petrovic, T. Ablett, I. Petrovic, and J. Kelly",
+    "authors": "F. Maric, <b>O. Limoyo</b>, L. Petrovic, T. Ablett, I. Petrovic, and J. Kelly",
     "journal": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Macau, China, Nov. 4–8, 2019, pp. 8258-8264.",
     "links": [
       {
@@ -126,7 +129,7 @@
   {
     "gif":"contact_calibration.gif",
     "title": "Self-Calibration of Mobile Manipulator Kinematic and Sensor Extrinsic Parameters Through Contact-Based Interaction",
-    "authors": "O. Limoyo, T. Ablett, F. Maric, L. Volpatti, and J. Kelly",
+    "authors": "<b>O. Limoyo</b>, T. Ablett, F. Maric, L. Volpatti, and J. Kelly",
     "journal": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), Brisbane, Queensland, Australia, May 21–25, 2018.",
     "links": [
       {
