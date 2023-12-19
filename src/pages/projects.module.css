@@ -6,16 +6,26 @@
   padding-bottom: 1em;
 }
 .image {
-  flex-grow: 1;
-  flex-basis: 20%;
+  width: 200px;
 }
 .image img {
-  max-width: 200px;
+  width: 200px;
 }
 .content {
   flex-grow: 1;
-  flex-basis: 80%;
 }
 .content h2 {
   margin: 0;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    text-align: center;
+  }
+  .image img {
+    width: 90%;
+  }
 }

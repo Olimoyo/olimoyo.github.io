@@ -16,10 +16,8 @@ const ProjectsPage = () => {
       {
         data.map((project) => (
           <div className={container}>
-            {console.log(project.node.gif)}
             <div className={image}>
-              { project.node.image && <GatsbyImage image={getImage(project.node.image)} alt="" /> }
-              { project.node.gif && <img src={require(`../images/projects/${project.node.gif}`).default } /> }
+              { project.node.image && <img src={require(`../images/projects/${project.node.image}`).default } /> }
 
             </div>
             <div className={content}>
@@ -42,7 +40,7 @@ const dataQuery = graphql`
         node {
           title
           description
-          gif
+          image
           links {
             name
             url
