@@ -27,3 +27,23 @@
 h2 {
   font-size: 2em;
 }
+.text a {
+  text-decoration: none;
+}
+.contact {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-item {
+  padding-right: 1.5rem;
+  width: 18px;
+}
+.contact-item a {
+  opacity: 40%;
+}
+.contact-item a:hover {
+  opacity: 80%;
+  transition: opacity 250ms;
+}
