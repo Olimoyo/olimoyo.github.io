@@ -22,8 +22,7 @@ const ResearchPage = () => {
         data.map((research) => (
           <div className={container}>
             <div className={image}>
-              { research.node.image && <GatsbyImage image={getImage(research.node.image)} alt="" />}
-              { research.node.gif && <img src={require(`../images/research/${research.node.gif}`).default } /> }
+              { research.node.image && <img src={require(`../images/research/${research.node.image}`).default} alt="" />}
             </div>
             <div className={content}>
               <h3>{research.node.title}</h3>
@@ -54,15 +53,10 @@ const dataQuery = graphql`
           date
           description
           note
-          gif
+          image
           links {
             name
             url
-          }
-          image {
-            childImageSharp {
-              gatsbyImageData(placeholder: BLURRED, formats: AUTO)
-            }
           }
         }
       }
