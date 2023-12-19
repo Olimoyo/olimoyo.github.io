@@ -1,5 +1,10 @@
 [
   {
+    "image": "senseact_rl.gif",
+    "title": "Reproducing Reinforcement Learning Results on Real-World Robots",
+    "description": "I alpha-tested Kindred AI's SenseAct reinforcement learning framework. This involved reproducing policy learning results presented on a UR5 in the original paper on my lab's UR10."
+  },
+  {
     "image": "teleop.gif",
     "title": "Mobile Manipulator Line Drawing with Redundant Inverse Kinematics and Impedance Controller",
     "description": "A mobile manipulator simultaneously moves its base while drawing a straight line with its end-effector using Redundant Inverse Kinematics. The marker maintains contact with the whiteboard using an impedance controller.",
@@ -16,8 +21,8 @@
     "description": "Teleoperate a manipulator using hand tracking with a Kinect camera. The gripper closes and opens based on the output of a neural network that detects if the user's hand is open or closed in the image."
   },
   {
-    "image": "senseact_rl.gif",
-    "title": "Reproducing Reinforcement Learning Results on Real-World Robots",
-    "description": "I alpha-tested Kindred AI's SenseAct reinforcement learning framework. This involved reproducing policy learning results presented on a UR5 in the original paper on my lab's UR10."
+    "image": "thing_force_move.gif",
+    "title": "Full Body Admittance Control of Mobile Manipulator",
+    "description": "Push or pull a mobile manipulator around based on an admittance controller and force torque sensor. Depending on the amount of force applied the manipulator moves alone or the mobile manipulator moves together."
   }
 ]
