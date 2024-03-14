@@ -14,11 +14,11 @@
     ]
   },
   {
-    "image":"system-latest-with-buffer.png",
-    "title": "Push it to the Demonstrated Limit: Multimodal Visuotactile Imitation Learning with Force Matching",
+    "image":"sts-il-system.gif",
+    "title": "Multimodal and Force-Matched Imitation Learning with a See-Through Visuotactile Sensor",
     "authors": "T. Ablett, <b>O. Limoyo</b>, A. Sigal, A. Jilani, J. Kelly, K. Siddiqi, F. Hogan, G. Dudek",
-    "journal": "arXiv preprint arXiv:2311.01248",
-    "date": "2023, Online",
+    "journal": "Submitted to IEEE Transactions on Robotics (T-RO): Special Section on Tactile Robotics",
+    "date": "February 2024",
     "description": "",
     "links": [
       {
@@ -31,7 +31,7 @@
     "image":"ggik.png",
     "title": "Generative Graphical Inverse Kinematics",
     "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
-    "journal": "Submitted to IEEE Transactions on Robotics",
+    "journal": "Submitted to IEEE Transactions on Robotics (T-RO)",
     "date": "June 2023",
     "links": [
       {
@@ -45,7 +45,7 @@
     "title": "Euclidean Equivariant Models for Generative Graphical Inverse Kinematics",
     "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
     "journal": "Proceedings of the Robotics: Science and Systems (RSS) Workshop on Symmetries in Robot Learning, Daegu, Republic of Korea",
-    "date": "Jul. 10 2023",
+    "date": "July 10 2023",
     "links": [
       {
         "name": "arXiv",
