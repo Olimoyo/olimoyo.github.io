@@ -24,6 +24,10 @@
       {
         "name": "arXiv",
         "url": "https://arxiv.org/abs/2312.02352"
+      },
+      {
+        "name":"Code",
+        "url":"https://github.com/SAIC-MONTREAL/tactile-il/tree/master/place-from-pick-learning"
       }
     ]
   },
@@ -38,6 +42,10 @@
       {
         "name": "arxiv",
         "url": "https://arxiv.org/abs/2311.01248"
+      },
+      {
+        "name":"Code",
+        "url":"https://github.com/SAIC-MONTREAL/tactile-il"
       }
     ]
   },
@@ -51,6 +59,10 @@
       {
         "name": "arXiv",
         "url": "https://arxiv.org/abs/2209.08812"
+      },
+      {
+        "name":"Code",
+        "url":"https://github.com/utiasSTARS/generative-graphik"
       }
     ]
   },
@@ -81,6 +93,10 @@
       {
         "name": "arXiv",
         "url": "https://arxiv.org/abs/2204.10419"
+      },
+      {
+        "name":"Code",
+        "url":"https://github.com/utiasSTARS/visual-haptic-dynamics"
       }
     ]
   },
@@ -101,6 +117,10 @@
       {
         "name": "Video",
         "url": "https://www.youtube.com/watch?v=tPLUqhobVzw"
+      },
+      {
+        "name":"Code",
+        "url":"https://github.com/utiasSTARS/robust-latent-srl"
       }
     ]
   },
