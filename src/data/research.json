@@ -1,9 +1,23 @@
 [
   {
+    "image":"photobot.gif",
+    "title": "Photobot: Reference-guided Interactive Photography via Natural Language",
+    "authors": "<b>O. Limoyo</b>*, J. Li*, D. Rivkin, J. Kelly, and G. Dudek,",
+    "journal": "Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)",
+    "date": "May 2024",
+    "description": "",
+    "links": [
+      {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2401.11061"
+      }
+    ]
+  },
+  {
     "image":"working_backwards.gif",
-    "title": "Working backwards: Learning to place by picking",
+    "title": "Working backwards: Learning to Place by Picking",
     "authors": "<b>O. Limoyo</b>, A. Konar, T. Ablett, J. Kelly, F. Hogan, and G. Dudek,",
-    "journal": "Submitted to IEEE International Conference on Robotics and Automation (ICRA'24)",
+    "journal": "Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'24)",
     "date": "May 2024",
     "description": "",
     "links": [
