@@ -47,3 +47,11 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+
+## Deploy to Github
+
+On the `dev` branch, commit your updates and push.
+
+Then run `npm run deploy`.
+
+That's it! The site will be built and pushed to the `main` branch automatically.
