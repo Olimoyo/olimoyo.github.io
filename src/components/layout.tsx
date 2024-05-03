@@ -7,7 +7,7 @@ import {
   navLinkText,
   heading,
 } from './layout.module.css'
-import cv from '../data/Oliver_CV_2023_long.pdf'
+import cv from '../data/Oliver_CV_2024.pdf'
 
 interface Props {
   pageTitle?: string,
