@@ -1,6 +1,5 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from 'gatsby'
-import { GatsbyImage, getImage, getSrc } from 'gatsby-plugin-image'
 import {
   container,
   image,
@@ -17,7 +16,7 @@ const ResearchPage = () => {
 
   return (
     <div>
-      <h2 id="research">Select Publications</h2>
+      <h2 id="research">Selected Publications</h2>
       {
         data.map((research) => (
           <div className={container}>
