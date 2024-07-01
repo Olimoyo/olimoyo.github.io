@@ -16,7 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       <div className={text}>
           <h1>Oliver Limoyo</h1>
-          <p>I'm a Ph.D. student at the <a href="https://starslab.ca/" target="_blank">STARS Lab</a>, University of Toronto. My research focuses on the application of self-supervised learning to robotics and multimodal sensing for manipulation. I'm supervised by <a href="https://twitter.com/domo_mr_roboto" target="_blank">Prof. Jonathan Kelly.</a></p>
+          <p>I'm a Ph.D. student at the <a href="https://starslab.ca/" target="_blank">STARS Lab</a>, University of Toronto. My research focuses on the application of generative and self-supervised learning to robotics problems. I am also interested in multimodal sensing for manipulation. I'm supervised by <a href="https://twitter.com/domo_mr_roboto" target="_blank">Prof. Jonathan Kelly.</a></p>
           <ul className={contact}>
 
             <li className={contactItem}>
