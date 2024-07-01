@@ -36,7 +36,7 @@
     "image":"sts-il-system.gif",
     "title": "Multimodal and Force-Matched Imitation Learning with a See-Through Visuotactile Sensor",
     "authors": "T. Ablett, <b>O. Limoyo</b>, A. Sigal, A. Jilani, J. Kelly, K. Siddiqi, F. Hogan, G. Dudek",
-    "journal": "Submitted to IEEE Transactions on Robotics (T-RO): Special Section on Tactile Robotics",
+    "journal": "Submitted to IEEE Transactions on Robotics (T-RO): Special Section on Tactile Robotics.",
     "date": "2024",
     "description": "",
     "links": [
@@ -54,7 +54,7 @@
     "image":"ggik.png",
     "title": "Generative Graphical Inverse Kinematics",
     "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
-    "journal": "To be published in IEEE Transactions on Robotics (T-RO)",
+    "journal": "To be published in IEEE Transactions on Robotics (T-RO).",
     "date": "2023",
     "links": [
       {
@@ -71,7 +71,7 @@
     "image":"ggik_eq.jpg",
     "title": "Euclidean Equivariant Models for Generative Graphical Inverse Kinematics",
     "authors": "<b>O. Limoyo</b>*, F. Marić*, M. Giamou, P. Alexson, I. Petrović, J. Kelly",
-    "journal": "Proceedings of the Robotics: Science and Systems (RSS) Workshop on Symmetries in Robot Learning",
+    "journal": "Proceedings of the Robotics: Science and Systems (RSS) Workshop on Symmetries in Robot Learning.",
     "date": "2023",
     "links": [
       {
