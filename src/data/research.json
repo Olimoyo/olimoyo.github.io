@@ -84,7 +84,7 @@
     "image":"multimodal_latent.gif",
     "title": "Learning Sequential Latent Variable Models from Multimodal Time Series Data",
     "authors": "<b>O. Limoyo</b>, T. Ablett, J. Kelly",
-    "journal": "Intelligent Autonomous Systems 17",
+    "journal": "Intelligent Autonomous Systems 17 (IAS'17)",
     "date": "2023",
     "note": "Best Paper Finalist",
     "links": [
@@ -106,7 +106,7 @@
     "image":"robust_mpc.gif",
     "title": "Heteroscedastic Uncertainty for Robust Generative Latent Dynamics",
     "authors": "<b>O. Limoyo</b>, B. Chan, F. Marić, B. Wagstaff, AR. Mahmood, J. Kelly",
-    "journal": "IEEE Robotics and Automation Letters",
+    "journal": "IEEE Robotics and Automation Letters (RA-L)",
     "date": "2020",
     "links": [
       {
